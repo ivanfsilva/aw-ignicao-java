@@ -23,6 +23,7 @@ aplicação de console.
 
 - **Linguagem:** Java (JDK 17+)
 - **IDE:** IntelliJ IDEA
+- **Qualidade de Código:** SonarLint / SonarQube _(análise estática na IDE)_
 - **Controle de Versão:** Git & GitHub
 - **Documentação:** Markdown _(estudo complementar/iniciativa própria)_
 
@@ -31,6 +32,7 @@ aplicação de console.
 <div style="display: inline-block">
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA" />
+  <img src="https://img.shields.io/badge/SonarQube-4E9BCD.svg?style=for-the-badge&logo=sonarqube&logoColor=white" alt="SonarQube" />
   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
@@ -53,7 +55,7 @@ Os exercícios e o projeto principal estão organizados em diretórios dedicados
 1. Clone este repositório:
 
 ```bash
-git clone [https://github.com/ivanfsilva/aw-ignicao-java.git](https://github.com/ivanfsilva/aw-ignicao-java.git)
+git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 ```
 
 2. Abra o IntelliJ IDEA (ou sua IDE de preferência) e importe a pasta do projeto.

@@ -23,6 +23,7 @@ console application.
 
 - **Language:** Java (JDK 17+)
 - **IDE:** IntelliJ IDEA
+- **Code Quality:** SonarLint / SonarQube _(IDE static analysis)_
 - **Version Control:** Git & GitHub
 - **Documentation:** Markdown _(complementary study/personal initiative)_
 
@@ -31,6 +32,7 @@ console application.
 <div style="display: inline-block">
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA" />
+  <img src="https://img.shields.io/badge/SonarQube-4E9BCD.svg?style=for-the-badge&logo=sonarqube&logoColor=white" alt="SonarQube" />
   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
@@ -53,7 +55,7 @@ Exercises and main projects are organized in dedicated directories inside the re
 1. Clone this repository:
 
 ```bash
-git clone [https://github.com/ivanfsilva/aw-ignicao-java.git](https://github.com/ivanfsilva/aw-ignicao-java.git)
+git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 ```
 
 2. Open IntelliJ IDEA (or your preferred IDE) and import the project folder.
