@@ -60,7 +60,7 @@ git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 
 2. Open IntelliJ IDEA (or your preferred IDE) and import the project folder.
 3. Ensure the project SDK is set to **Java 17** or higher.
-4. Navigate to the main class (e.g., `Principal.java` or `Main.java`).
+4. Navigate to the main class (e.g., `com.aw.bank.app.Principal.java` or `Main.java`).
 5. Run the class and interact with the application via the IDE console.
 
 ---

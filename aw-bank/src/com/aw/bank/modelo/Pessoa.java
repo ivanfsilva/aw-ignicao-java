@@ -1,3 +1,5 @@
+package com.aw.bank.modelo;
+
 public class Pessoa {
 
     private String nome;

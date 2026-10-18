@@ -46,7 +46,7 @@ Os exercícios e o projeto principal estão organizados em diretórios dedicados
 
 | Pasta / Diretório | Projeto                        | Descrição / Conceitos Aplicados                                                                                                                          |      Status      |
 |:------------------|:-------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
-| `aw-bank`         | **Sistema Bancário (Console)** | Aplicação evolutiva cobrindo fundamentos de OO, modelagem de classes (`Conta`), atributos, métodos de saque/depósito, encapsulamento e regras de negócio | `⏳ Em andamento` |
+| `aw-bank`         | **Sistema Bancário (Console)** | Aplicação evolutiva cobrindo fundamentos de OO, modelagem de classes (`com.aw.bank.modelo.Conta`), atributos, métodos de saque/depósito, encapsulamento e regras de negócio | `⏳ Em andamento` |
 
 ---
 
@@ -60,7 +60,7 @@ git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 
 2. Abra o IntelliJ IDEA (ou sua IDE de preferência) e importe a pasta do projeto.
 3. Certifique-se de que o SDK configurado seja o **Java 17** ou superior.
-4. Navegue até a classe principal do projeto (ex: `Principal.java` ou `Main.java`).
+4. Navegue até a classe principal do projeto (ex: `com.aw.bank.app.Principal.java` ou `Main.java`).
 5. Execute a classe e interaja com o sistema através do console da IDE.
 
 ---

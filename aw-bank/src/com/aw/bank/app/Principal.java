@@ -1,3 +1,8 @@
+package com.aw.bank.app;
+
+import com.aw.bank.modelo.Conta;
+import com.aw.bank.modelo.Pessoa;
+
 public class Principal {
 
     public static void main(String[] args) {
