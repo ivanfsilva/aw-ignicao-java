@@ -1,6 +1,7 @@
 package com.aw.bank.app;
 
 import com.aw.bank.excecao.SaldoInsuficienteException;
+import com.aw.bank.modelo.TipoPessoa;
 import com.aw.bank.modelo.atm.CaixaEletronico;
 import com.aw.bank.modelo.ContaEspecial;
 import com.aw.bank.modelo.ContaInvestimento;
@@ -8,12 +9,20 @@ import com.aw.bank.modelo.Pessoa;
 import com.aw.bank.modelo.pagamento.Boleto;
 import com.aw.bank.modelo.pagamento.Holerite;
 
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
 public class Principal {
 
     public static void main(String[] args) {
         Pessoa titular1 = new Pessoa();
         titular1.setNome("João da Silva");
         titular1.setDocumento("12312312311");
+        titular1.setRendimentoAnual(new BigDecimal("15000"));
+        titular1.setTipo(TipoPessoa.JURIDICA);
+
+        titular1.setDataUltimaAtualizacao(LocalDateTime.parse("2023-06-27T13:20:00"));
+        System.out.println(titular1.getDataUltimaAtualizacao());
 
         Pessoa titular2 = new Pessoa();
         titular2.setNome("Maria Abadia");
@@ -22,18 +31,18 @@ public class Principal {
         CaixaEletronico caixaEletronico = new CaixaEletronico();
 
         ContaInvestimento minhaConta = new ContaInvestimento(titular1, 123, 987);
-        ContaEspecial suaConta = new ContaEspecial(titular2, 222, 333, 1_000);
+        ContaEspecial suaConta = new ContaEspecial(titular2, 222, 333, new BigDecimal("1000"));
 
         try {
-            minhaConta.depositar(30_000);
-            minhaConta.sacar(1_000);
+            minhaConta.depositar(new BigDecimal("30000"));
+            minhaConta.sacar(new BigDecimal("1000"));
 
-            suaConta.depositar(15_000);
-            suaConta.sacar(15_500);
+            suaConta.depositar(new BigDecimal("15000"));
+            suaConta.sacar(new BigDecimal("15500"));
             suaConta.debitarTarifaMensal();
 
-            Boleto boletoEscola = new Boleto(titular2, 35_000);
-            Holerite salarioFuncionario = new Holerite(titular2, 100, 160);
+            Boleto boletoEscola = new Boleto(titular2, new BigDecimal("35000"));
+            Holerite salarioFuncionario = new Holerite(titular2, new BigDecimal("100"), 160);
 
             caixaEletronico.pagar(boletoEscola, minhaConta);
             caixaEletronico.pagar(salarioFuncionario, minhaConta);
