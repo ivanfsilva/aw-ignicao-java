@@ -46,7 +46,7 @@ Los ejercicios y el proyecto principal están organizados en directorios dedicad
 
 | Carpeta / Directorio | Proyecto                       | Descripción / Conceptos Aplicados                                                                                                                             |     Estado     |
 |:---------------------|:-------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------:|
-| `aw-bank`            | **Sistema Bancario (Consola)** | Aplicación evolutiva que abarca fundamentos de POO, modelado de clases (`Cuenta`), atributos, métodos de retiro/depósito, encapsulamiento y reglas de negocio | `⏳ En Proceso` |
+| `aw-bank`            | **Sistema Bancario (Consola)** | Aplicación evolutiva que abarca fundamentos de POO, modelado de clases (`Cuenta`), atributos, métodos de retiro/depósito, encapsulamiento y reglas de negocio | `✅ Finalizado` |
 
 ---
 
@@ -62,6 +62,15 @@ git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 3. Asegúrate de que el SDK configurado sea **Java 17** o superior.
 4. Navega hasta la clase principal (ej: `com.aw.bank.app.Principal.java` o `Main.java`).
 5. Ejecuta la clase e interactúa con el sistema a través de la consola del IDE.
+
+---
+
+## 📌 Próximos Pasos (Roadmap)
+
+- [x] **[v1.0.0](../../releases/tag/v1.0.0)** — Línea base original del curso Igniación Java (versión didáctica).
+- [ ] **[v2.0.0](../../releases/tag/v2.0.0)** — Refactorización general: Clean Code, eliminación de código comentado,
+  CLI interactiva (`Scanner`) y datos iniciales en memoria.
+- [ ] **[v3.0.0](../../releases/tag/v3.0.0)** — Cobertura de pruebas unitarias automatizadas con JUnit 5 y TDD.
 
 ---
 

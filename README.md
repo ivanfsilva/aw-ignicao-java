@@ -44,9 +44,9 @@ aplicação de console.
 
 Os exercícios e o projeto principal estão organizados em diretórios dedicados dentro do repositório:
 
-| Pasta / Diretório | Projeto                        | Descrição / Conceitos Aplicados                                                                                                                          |      Status      |
-|:------------------|:-------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
-| `aw-bank`         | **Sistema Bancário (Console)** | Aplicação evolutiva cobrindo fundamentos de OO, modelagem de classes (`com.aw.bank.modelo.Conta`), atributos, métodos de saque/depósito, encapsulamento e regras de negócio | `⏳ Em andamento` |
+| Pasta / Diretório | Projeto                        | Descrição / Conceitos Aplicados                                                                                                                                             |    Status     |
+|:------------------|:-------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|
+| `aw-bank`         | **Sistema Bancário (Console)** | Aplicação evolutiva cobrindo fundamentos de OO, modelagem de classes (`com.aw.bank.modelo.Conta`), atributos, métodos de saque/depósito, encapsulamento e regras de negócio | `✅ Concluído` |
 
 ---
 
@@ -62,6 +62,15 @@ git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 3. Certifique-se de que o SDK configurado seja o **Java 17** ou superior.
 4. Navegue até a classe principal do projeto (ex: `com.aw.bank.app.Principal.java` ou `Main.java`).
 5. Execute a classe e interaja com o sistema através do console da IDE.
+
+---
+
+## 📌 Próximos Passos (Roadmap)
+
+- [x] **[v1.0.0](../../releases/tag/v1.0.0)** — Baseline original do treinamento Ignição Java (versão didática).
+- [ ] **[v2.0.0](../../releases/tag/v2.0.0)** — Refatoração geral: Clean Code, remoção de código comentado, CLI
+  interativa (`Scanner`) e carga inicial de dados em memória.
+- [ ] **[v3.0.0](../../releases/tag/v3.0.0)** — Cobertura de testes unitários automatizados com JUnit 5 e TDD.
 
 ---
 

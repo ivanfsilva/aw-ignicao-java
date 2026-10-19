@@ -44,9 +44,9 @@ console application.
 
 Exercises and main projects are organized in dedicated directories inside the repository:
 
-| Folder / Directory | Project                      | Description / Applied Concepts                                                                                                                        |     Status      |
-|:-------------------|:-----------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------:|
-| `aw-bank`          | **Banking System (Console)** | Evolving application covering OOP fundamentals, class modeling (`Account`), attributes, deposit/withdrawal methods, encapsulation, and business rules | `⏳ In Progress` |
+| Folder / Directory | Project                      | Description / Applied Concepts                                                                                                                        |    Status     |
+|:-------------------|:-----------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|
+| `aw-bank`          | **Banking System (Console)** | Evolving application covering OOP fundamentals, class modeling (`Account`), attributes, deposit/withdrawal methods, encapsulation, and business rules | `✅ Completed` |
 
 ---
 
@@ -62,6 +62,15 @@ git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 3. Ensure the project SDK is set to **Java 17** or higher.
 4. Navigate to the main class (e.g., `com.aw.bank.app.Principal.java` or `Main.java`).
 5. Run the class and interact with the application via the IDE console.
+
+---
+
+## 📌 Next Steps (Roadmap)
+
+- [x] **[v1.0.0](../../releases/tag/v1.0.0)** — Original Java Ignition course baseline (educational release).
+- [ ] **[v2.0.0](../../releases/tag/v2.0.0)** — General refactoring: Clean Code, removal of commented code, interactive
+  CLI (`Scanner`), and in-memory seed data.
+- [ ] **[v3.0.0](../../releases/tag/v3.0.0)** — Automated unit testing coverage with JUnit 5 and TDD.
 
 ---
 
