@@ -6,6 +6,8 @@
 [![English](https://img.shields.io/badge/Language-English-blue.svg)](./README.en.md)
 [![Español](https://img.shields.io/badge/Idioma-Espa%C3%B1ol-yellow.svg)](./README.es.md)
 
+[![Release](https://img.shields.io/badge/release-v1.0.0-brightgreen?style=flat-square&logo=github)](../../releases/tag/v1.0.0)
+![Status](https://img.shields.io/badge/status-versi%C3%B3n_estable-brightgreen?style=flat-square)
 </div>
 
 ---
@@ -67,10 +69,11 @@ git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 
 ## 📌 Próximos Pasos (Roadmap)
 
-- [x] **[v1.0.0](../../releases/tag/v1.0.0)** — Línea base original del curso Igniación Java (versión didáctica).
-- [ ] **[v2.0.0](../../releases/tag/v2.0.0)** — Refactorización general: Clean Code, eliminación de código comentado,
-  CLI interactiva (`Scanner`) y datos iniciales en memoria.
-- [ ] **[v3.0.0](../../releases/tag/v3.0.0)** — Cobertura de pruebas unitarias automatizadas con JUnit 5 y TDD.
+| Versión                                                                                                                       | Descripción                                                                                                           |
+|:------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------|
+| [![v1.0.0](https://img.shields.io/badge/v1.0.0-Estable-brightgreen?style=flat-square&logo=github)](../../releases/tag/v1.0.0) | Línea base original del curso Igniación Java (versión didáctica).                                                     |
+| [![v2.0.0](https://img.shields.io/badge/v2.0.0-Planificado-blue?style=flat-square)](../../releases/tag/v2.0.0)                | Refactorización general: Clean Code, eliminación de código comentado, CLI interactiva (`Scanner`) y datos en memoria. |
+| [![v3.0.0](https://img.shields.io/badge/v3.0.0-Futuro-lightgrey?style=flat-square)](../../releases/tag/v3.0.0)                | Cobertura de pruebas unitarias automatizadas con JUnit 5 y TDD.                                                       |
 
 ---
 

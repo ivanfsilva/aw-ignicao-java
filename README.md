@@ -6,6 +6,9 @@
 [![English](https://img.shields.io/badge/Language-English-blue.svg)](./README.en.md)
 [![Español](https://img.shields.io/badge/Idioma-Espa%C3%B1ol-yellow.svg)](./README.en)
 
+[![Release](https://img.shields.io/badge/release-v1.0.0-brightgreen?style=flat-square&logo=github)](../../releases/tag/v1.0.0)
+![Status](https://img.shields.io/badge/status-vers%C3%A3o_est%C3%A1vel-brightgreen?style=flat-square)
+
 </div>
 
 ---
@@ -67,10 +70,11 @@ git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 
 ## 📌 Próximos Passos (Roadmap)
 
-- [x] **[v1.0.0](../../releases/tag/v1.0.0)** — Baseline original do treinamento Ignição Java (versão didática).
-- [ ] **[v2.0.0](../../releases/tag/v2.0.0)** — Refatoração geral: Clean Code, remoção de código comentado, CLI
-  interativa (`Scanner`) e carga inicial de dados em memória.
-- [ ] **[v3.0.0](../../releases/tag/v3.0.0)** — Cobertura de testes unitários automatizados com JUnit 5 e TDD.
+| Versão                                                                                                                             | Descrição                                                                                                                   |
+|:-----------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
+| [![v1.0.0](https://img.shields.io/badge/v1.0.0-Est%C3%A1vel-brightgreen?style=flat-square&logo=github)](../../releases/tag/v1.0.0) | Baseline original do treinamento Ignição Java (versão didática).                                                            |
+| [![v2.0.0](https://img.shields.io/badge/v2.0.0-Planejado-blue?style=flat-square)](../../releases/tag/v2.0.0)                       | Refatoração geral: Clean Code, remoção de código comentado, CLI interativa (`Scanner`) e carga inicial de dados em memória. |
+| [![v3.0.0](https://img.shields.io/badge/v3.0.0-Futuro-lightgrey?style=flat-square)](../../releases/tag/v3.0.0)                     | Cobertura de testes unitários automatizados com JUnit 5 e TDD.                                                              |
 
 ---
 

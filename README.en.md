@@ -4,7 +4,10 @@
 
 [![Português](https://img.shields.io/badge/Idioma-Portugu%C3%Aas-green.svg)](./README.md)
 [![English](https://img.shields.io/badge/Language-English-blue.svg)](./README.en.md)
-[![Español](https://img.shields.io/badge/Idioma-Espa%C3%B1ol-yellow.svg)](./README.en)
+[![Español](https://img.shields.io/badge/Idioma-Espa%C3%B1ol-yellow.svg)](./README.es.md)
+
+[![Release](https://img.shields.io/badge/release-v1.0.0-brightgreen?style=flat-square&logo=github)](../../releases/tag/v1.0.0)
+![Status](https://img.shields.io/badge/status-stable_version-brightgreen?style=flat-square)
 
 </div>
 
@@ -67,10 +70,11 @@ git clone https://github.com/ivanfsilva/aw-ignicao-java.git
 
 ## 📌 Next Steps (Roadmap)
 
-- [x] **[v1.0.0](../../releases/tag/v1.0.0)** — Original Java Ignition course baseline (educational release).
-- [ ] **[v2.0.0](../../releases/tag/v2.0.0)** — General refactoring: Clean Code, removal of commented code, interactive
-  CLI (`Scanner`), and in-memory seed data.
-- [ ] **[v3.0.0](../../releases/tag/v3.0.0)** — Automated unit testing coverage with JUnit 5 and TDD.
+| Version                                                                                                                      | Description                                                                                                       |
+|:-----------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
+| [![v1.0.0](https://img.shields.io/badge/v1.0.0-Stable-brightgreen?style=flat-square&logo=github)](../../releases/tag/v1.0.0) | Original Java Ignition course baseline (educational release).                                                     |
+| [![v2.0.0](https://img.shields.io/badge/v2.0.0-Planned-blue?style=flat-square)](../../releases/tag/v2.0.0)                   | General refactoring: Clean Code, removal of commented code, interactive CLI (`Scanner`), and in-memory seed data. |
+| [![v3.0.0](https://img.shields.io/badge/v3.0.0-Future-lightgrey?style=flat-square)](../../releases/tag/v3.0.0)               | Automated unit testing coverage with JUnit 5 and TDD.                                                             |
 
 ---
 
